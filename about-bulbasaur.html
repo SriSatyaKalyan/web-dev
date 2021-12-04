@@ -14,6 +14,124 @@
     <p>
         <a href="bulbasaur.html">Home Page</a>
     </p>
+
+    <h4>Forms Demo</h4>
+
+    <hr>
+
+    <hr>
+
+    <form action="/tacos">
+        <p>
+            <label for="username">Enter Username</label>
+            <input id="username" type="text" placeholder="username" name="username" required>
+        </p>
+        <p>
+            <label for="password">Enter Password</label>
+            <input id="password" type="password" placeholder="password" name="password" minlength="5" maxlength="10"
+                required>
+        </p>
+
+        <p>
+            <label for="color">Select Color</label>
+            <input id="color" type="color" name="color">
+        </p>
+
+        <!-- Alternative way to label an input -->
+        <label>
+            Enter a new number:
+            <input type="number" placeholder="Enter the new number" name="num" min="1" max="10">
+        </label>
+
+        <p>
+            <!-- This button does not submit the form because of the "type" attribute -->
+            <button type="button">Regular button (won't submit)</button>
+
+            <!-- This button submits the form -->
+            <button>Submit</button>
+
+            <!-- This button submits too -->
+            <input type="submit" value="Click Me!">
+        </p>
+    </form>
+    <hr>
+
+    <button>Not Inside Form</button>
+
+    <hr>
+
+    <h3>Search Forms</h3>
+
+    <form action="https://www.reddit.com/search">
+        <input type="text" name="q">
+        <button>Search Reddit</button>
+    </form>
+
+    <form action="https://www.google.com/search">
+        <input type="text" name="q">
+        <button>Search Google</button>
+    </form>
+
+    <hr>
+
+    <h3>More Inputs!</h3>
+
+    <h4>CheckBox</h4>
+    <form action="/birds">
+        <label for="agree">Agree To Bulbasaur's Terms Of Service</label>
+        <input type="checkbox" name="agree_terms" id="agree">
+
+
+        <!-- Having the same name links all the radio buttons -->
+        <h4>RadioButtons</h4>
+        <h5>Select the Type of Saur you wanttttt!</h5>
+        <p>
+        <div>
+            <label for="Bulbasaur">Bulbasaur</label>
+            <input type="radio" name="PokemonType" id="Bulbasaur" value="Bulbasaur">
+        </div>
+
+        <div>
+            <label for="Ivysaur">Ivysaur</label>
+            <input type="radio" name="PokemonType" id="Ivysaur" value="Ivysaur">
+        </div>
+
+        <div>
+            <label for="Venasaur">Venasaur</label>
+            <input type="radio" name="PokemonType" id="" value="Venasaur">
+        </div>
+
+        </p>
+
+        <h4>Select Elements</h4>
+        <h5>Select the Strength of Bulbasaur you want to recuperate</h5>
+        <p>
+            <label for="StrengthType">Please Select the Strength</label>
+            <select name="StrengthType" id="StrengthType">
+                <option value="water">Water</option>
+                <option value="ground">Ground</option>
+                <option value="rock">Rock</option>
+            </select>
+        </p>
+
+        <h5>Select the Amount of Strength you want to recuperate</h5>
+        <p>
+            <label for="Recuperation">Please Select the Size</label>
+            <input type="range" id="recuperation" min="1" max="10" step="1" name="recStrength">
+        </p>
+
+        <h4>Comments on Bulbasaur</h4>
+        <p>
+            <label for="requests">Please add comments below:</label>
+            <br>
+            <textarea name="comments" id="requests" cols="40" rows="4" placeholder="Comments"></textarea>
+        </p>
+
+        <p><button>Submit</button></p>
+
+        <hr>
+    </form>
+
 </body>
 
 </html>
