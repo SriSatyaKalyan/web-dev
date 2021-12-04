@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Race Register Form</title>
+</head>
+
+<body>
+    <h1>Race Registration!</h1>
+    <form action="/raceform">
+
+        <p>
+            <label for="firstName">First Name</label>
+            <input id="firstName" type="text" name="firstName" required>
+
+            <label for="lastName">Last Name</label>
+            <input id="lastName" type="text" name="lastName" required>
+        </p>
+
+        <p>Select a Race:</p>
+        <div>
+            <input type="radio" value="Full5K" name="selectRace" id="Full5K">
+            <label for="Full5K">Full Run 5k</label>
+        </div>
+        <div>
+            <input type="radio" value="HalfMarathon" name="selectRace" id="HalfMarathon">
+            <label for="HalfMarathon">Half Marathon</label>
+        </div>
+        <div>
+            <input type="radio" value="FullMarathon" name="selectRace" id="FullMarathon">
+            <label for="FullMarathon">Full Marathon</label>
+        </div>
+        </p>
+
+        <p>
+
+            <label for="email">Email</label>
+            <input type="email" id="email">
+
+            <label for="password">Password</label>
+            <input type="password" id="password">
+        </p>
+
+        <p>
+            <label for="age-select">Select Age Group</label>
+            <select id="age-select" name="ageGroup">
+                <option value="">--Please choose an option--</option>
+                <option value="young">below 18</option>
+                <option value="teen">18 - 25</option>
+                <option value="adult">25 - 35</option>
+                <option value="old">35 and above</option>
+            </select>
+        </p>
+        <button>Register!</button>
+    </form>
+
+</body>
+
+</html>
