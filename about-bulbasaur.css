@@ -1,0 +1,19 @@
+h1{
+    color: brown;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 10px;
+    font-family: 'Segoe UI', 'Futura', 'Arial';
+}
+
+button{
+    color: magenta;
+    background-color: cyan;
+}
+
+p{
+    color: rgb(175, 124, 30);
+    text-align: left;
+    font-weight: 500;
+    line-height: 1em;
+}
