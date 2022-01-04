@@ -1,0 +1,29 @@
+div{
+    height: 100px;
+    width: 800px;
+    background-color: burlywood;
+}
+
+#one{
+    background-color: #ffb703;
+    border-width: 2.5px;
+    border-color: black;
+    border-style: solid;
+    box-sizing: border-box;
+}
+
+#two{
+    background-color: #52b788;
+    border-width: 5px;
+    border-color: black;
+    border-style: dotted;
+    border-radius: 10px 100px / 120px;
+}
+
+#three{
+    border: medium dashed green;
+    border-right-color: indianred;
+    border-right-width: 8px;
+    border-radius: 30px;
+}
+    
