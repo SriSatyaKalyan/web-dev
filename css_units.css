@@ -1,0 +1,19 @@
+h2{
+    font-size: 5em;
+    margin-left: 1em;
+}
+
+article{
+    font-size: 30px;
+}
+p{
+    font-size: 1em;
+}
+
+button{
+    border-radius: 15px;
+    font-size: 1em;
+    padding: 0 1em;
+    background-color: aquamarine; 
+    color: white;   
+}
