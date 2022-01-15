@@ -9,3 +9,47 @@
     border-radius: 50%;
     background-color: maroon;
 }
+
+p{
+    /* background-color: indianred; */
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+button{
+    background: none;
+    color: #ffa260;
+    border: 2px solid;
+    padding: 1em 2em;
+    font-size: 2em;
+}
+
+button:hover{
+    border-color: #f1ff5c;
+}
+
+h2{
+    background-color: aquamarine;
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 10px;
+    border: black;
+}
+
+section:first-of-type h2:nth-of-type(1){
+    background-color: red;
+    transform: translate(100px, 50px);
+}
+
+section:first-of-type h2:nth-of-type(2){
+    background-color: burlywood;
+    transform: skew(10deg, 50deg);
+}
+
+section:first-of-type h2:nth-of-type(3){
+    background-color: hotpink;
+    transform: rotate(90deg);
+}
