@@ -1,0 +1,15 @@
+img{
+    width: 30%;
+    margin: 1.66%; 
+    /* we can also use calc(10%/6) */
+}
+
+nav{
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    border-bottom:  2px solid black;
+    width: 30%;
+    margin-left: calc(10%/6);
+    padding: 20px 0;
+    font-size: 1.5em;
+}
