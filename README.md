@@ -6,3 +6,4 @@
 * In the PICTURES section, I can have three most liked pictures by me as the heading of the kalyan_images page with the background (as Colt has explained)
 * Have the pictures in your kalyan_images.html arranged as the ones in photo blog tutorial
 * Use FlexBox only for designing your webpages
+* Have your webpage work in other devices using concepts from MediaQueries
