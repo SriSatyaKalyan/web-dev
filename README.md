@@ -7,3 +7,4 @@
 * Have the pictures in your kalyan_images.html arranged as the ones in photo blog tutorial
 * Use FlexBox only for designing your webpages
 * Have your webpage work in other devices using concepts from MediaQueries
+* Have quotes which you like be displayed in every page
