@@ -9,4 +9,5 @@
 * Have your webpage work in other devices using concepts from MediaQueries
 * Have quotes which you like be displayed in every page
 * Use Bootstrap Cards for your books and corresponding quotes in your website
+* Have your testing frameworks display in one of your pages
 
