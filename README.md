@@ -1,5 +1,11 @@
 # READ ME BEFORE YOU START BUILDING kalyan WEBSITE
 ---
+### TODOS
+
+-[] Museum Of Candy
+-[] Understanding this, reduce and arrow functions better
+-[] JS Algorithms and DataStructures
+---
 ### LEARNINGS FROM THIS COURSE
 * Use the POSITION property file to have the header in kalyan.html drop down for PICTURES section (or for every section)
 * Use the button_hover files as reference for how you want the buttons in your kalyan.html to act
@@ -10,4 +16,3 @@
 * Have quotes which you like be displayed in every page
 * Use Bootstrap Cards for your books and corresponding quotes in your website
 * Have your testing frameworks display in one of your pages
-
