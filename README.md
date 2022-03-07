@@ -1,11 +1,13 @@
 # READ ME BEFORE YOU START BUILDING kalyan WEBSITE
----
-### TODOS
 
--[] Museum Of Candy
--[] Understanding this, reduce and arrow functions better
--[] JS Algorithms and DataStructures
+#### ToDo List
+
+* Museum Of Candy
+* Understanding this, reduce and arrow functions better
+* JS Algorithms and DataStructures
+
 ---
+
 ### LEARNINGS FROM THIS COURSE
 * Use the POSITION property file to have the header in kalyan.html drop down for PICTURES section (or for every section)
 * Use the button_hover files as reference for how you want the buttons in your kalyan.html to act
