@@ -38,3 +38,18 @@ for (let link of allLinks) {
 // This is how to select with the attribute of type
 // const checkbox = document.querySelector("[type='text/css']")
 
+// const element = document.querySelector('#container');
+// element.style.textAlign = 'center'
+
+const text = "RAINBOW";
+// console.log("the length is: " + text.length)
+
+// const text = document.querySelector('h1');
+
+const colors = ['red', 'orange', 'yellow', 'green', 'blue', 'indigo', 'violet'];
+let i =0;
+while(i < text.length){
+    console.log(text[i] + " " + colors[i]);
+    // text[i].style.color = colors[i];
+    i++;
+}
