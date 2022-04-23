@@ -1,0 +1,25 @@
+<%- include('partials/head') %> 
+<body>
+    <%- include('partials/navbar') %> 
+    <h1>All The Cats</h1>
+
+    <p>
+        I can print all the cats in the array like I did here:
+        <div>
+            <%= cats %> 
+        </div>
+
+        or
+        
+        <div>
+            <ul>
+                <% for(let cat of cats) { %>
+                <li> 
+                    <%= cat %> 
+                </li>
+                <% } %>
+            </ul>
+        </div>
+    </p>
+</body>
+</html>
