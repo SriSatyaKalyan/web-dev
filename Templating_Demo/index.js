@@ -1,6 +1,8 @@
 const express = require('express')
 const app = express();
 
+app.use(express.static('public'))
+
 const path = require('path')
 const redditData = require('./data.json');
 console.log(redditData)
@@ -30,8 +32,12 @@ app.get('/r/:subreddit', (req, res) => {
     const {subreddit} = req.params;
     const data = redditData[subreddit];
     console.log(data)
+    if(data){
+        res.render('subreddit', {...data})
+    }else{
+        res.render('notfound', {subreddit})
+    }
 
-    res.render('subreddit', {...data})
 })
 
 app.listen(3000, () => {
